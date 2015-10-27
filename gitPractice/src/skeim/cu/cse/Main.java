@@ -6,9 +6,12 @@ public class Main {
 		// TODO Auto-generated method stub
 		System.out.println("Hello World");
 		int i=0;
+		int sum=0;
 		for(i=0;i<10;i++){
 			System.out.println(i);
+			sum+=i;
 		}
+		System.out.println("The value of sum is"+ sum );
 
 	}
 
